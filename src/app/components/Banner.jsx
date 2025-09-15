@@ -4,8 +4,8 @@ import Contact from "./shared/contact";
 export default function Banner() {
     return (
 
-        <div className="lg:px-[120px] md:px-16 px-4 pt-20 bg-[#151E1B] ">
-            <div className="lg:px-[120px]  flex flex-col items-center justify-center">
+        <div className="lg:px-[120px] md:p-16 px-4 pt-20 bg-[#151E1B] ">
+            <div className="lg:px-[120px] text-center  flex flex-col items-center justify-center">
                 <div className="flex items-center justify-center px-4 rounded-4xl gap-2 py-2 border-t-2 border-[#1FFFA5] bg-[#192420] ">
                     <Image
                         src='/assets/Sparkle.png'
