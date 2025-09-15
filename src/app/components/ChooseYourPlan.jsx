@@ -103,7 +103,7 @@ export default function ChoosePlan() {
     
     {/* Limited availability section */}
     <div>
-      <div className="flex flex-row items-center gap-4 m-12">
+      <div className="flex flex-row items-center gap-4  md:m-12 my-9">
         <Image
         src='/assets/Lightning.png'
         width={36}
@@ -117,11 +117,11 @@ export default function ChoosePlan() {
         </div>
       </div>
 
-      <div className="py-12 rounded-2xl bg-[#192420FF] flex flex-col items-center justify-center ">
-        <h1 className="text-[#F5F5F5] text-5xl font-medium">Special Offer For Early Clients</h1>
-        <p className="text-[#F5F5F5] font-normal text-[16px] mt-2 mb-12">Get 10% OFF + Free Hosting Setup when you book this week.</p>
+      <div className="md:py-12 p-6 rounded-2xl bg-[#192420FF] flex flex-col items-center justify-center ">
+        <h1 className=" md:text-5xl text-[#1FFFA5] text-2xl font-bold">Special Offer For Early Clients</h1>
+        <p className="text-[#F5F5F5] font-normal text-[14px] mt-2 mb-12">Get 10% OFF + Free Hosting Setup when you book this week.</p>
 
-        <button className="btn text-[#201301] flex items-center gap-2">Claim my 10% discount <FaArrowRight/> </button>
+        <button className="btn text-[#201301] text-[16px] font-normal flex items-center gap-2">Claim my 10% discount <FaArrowRight/> </button>
       </div>
     </div>
     

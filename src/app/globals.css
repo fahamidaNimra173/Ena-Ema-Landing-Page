@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
 :root {
     --background: #151E1B;
     --foreground: #003D25;
