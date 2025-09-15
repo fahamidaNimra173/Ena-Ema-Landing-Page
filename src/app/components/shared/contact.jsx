@@ -43,7 +43,7 @@ export default function Contact() {
               className="absolute left-5 lg:left-8 top-1/2 -translate-y-1/2 pointer-events-none"
             />
             <input
-              type="text"
+              type="email"
               placeholder="Email Address"
               className="border-2 w-full border-[#2A3C36] rounded-sm py-[18px] lg:p-[18px] pl-12 lg:pl-12"
             />
@@ -59,7 +59,7 @@ export default function Contact() {
               className="absolute left-5 lg:left-8 top-1/2 -translate-y-1/2 pointer-events-none"
             />
             <input
-              type="text"
+              type="tel"
               placeholder="Phone Number"
               className="border-2 w-full border-[#2A3C36] rounded-sm py-[18px] lg:p-[18px] pl-12 lg:pl-12"
             />

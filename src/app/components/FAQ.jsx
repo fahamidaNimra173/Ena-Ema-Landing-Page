@@ -3,7 +3,7 @@ import { DotFilledIcon, DotIcon } from "@radix-ui/react-icons";
 
 export default function FAQ() {
     return (
-        <div className="lg:p-[240px] md:p-16 py-16 mx-auto">
+        <div className="lg:p-[240px] md:p-16 py-16 mx-auto px-4">
 
             <h1 className=" text-5xl text-[#F5F5F5] font-bold text-center">Got Questions<span className="text-[#1FFFA5]">?</span> We’ve Got The Answers</h1>
             <div className="flex flex-col gap-6 mt-12">

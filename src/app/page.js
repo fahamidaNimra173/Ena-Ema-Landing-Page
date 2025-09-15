@@ -6,6 +6,8 @@ import ChoosePlan from "./components/ChooseYourPlan";
 import Process from "./components/Process";
 import Testimonial from "./components/Testimonial";
 import FAQ from "./components/FAQ";
+import FinalAction from "./components/FinalAction";
+import CaseStudy from "./components/CaseStudy";
 
 export default function Home() {
   return (
@@ -13,13 +15,16 @@ export default function Home() {
       <Banner></Banner>
       <ImageSlider></ImageSlider>
       <WhyToTrustUs></WhyToTrustUs>
-      <ChoosePlan></ChoosePlan>
+     
       <div className="bg-[#151E1B]">
+        <CaseStudy></CaseStudy>
+         <ChoosePlan></ChoosePlan>
         <Process></Process>
         <Testimonial></Testimonial>
         <FAQ></FAQ>
 
       </div>
+      <FinalAction></FinalAction>
     </div>
   );
 }

@@ -46,7 +46,7 @@ export default function TwoImageSlider() {
   return (
     <div
       {...handlers}
-      className="w-full lg:mt-[131px] md:mt-0 mt-7 pb-5  overflow-hidden rounded-lg"
+      className="w-full lg:mt-[131px] md:mt-0 mt-7 pb-5  overflow-hidden rounded-lg px-2"
     >
       <div className="flex transition-transform duration-700 ease-in-out gap-4">
         {currentImages.map((img, idx) => (
